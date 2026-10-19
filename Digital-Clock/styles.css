@@ -1,3 +1,8 @@
+body {
+    height: 100dvh;
+    background: linear-gradient(135deg, #A5F3FC, #3B82F6);
+}
+
 h1 {
     display: flex;
     justify-content: center;
