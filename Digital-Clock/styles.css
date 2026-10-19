@@ -1,4 +1,13 @@
 h1 {
+    display: flex;
+    justify-content: center;
     color: darkslategrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
 }
