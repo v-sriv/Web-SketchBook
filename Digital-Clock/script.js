@@ -5,6 +5,10 @@ let HR_24 = document.getElementById("24HR")
 
 let flag = 0;
 
+function formatTime(hour, min, secs, am_pm) {
+    return String(hour).padStart(2, "0") + ":" + String(min).padStart(2, "0") + ":" + String(secs).padStart(2, "0") + " " + am_pm
+}
+
 function set12hrs(time) {
     let hour = time.getHours();
     let min = time.getMinutes();
@@ -24,9 +28,7 @@ function set12hrs(time) {
         }
     }
 
-    let hrminsecs = String(hour).padStart(2, "0") + ":" + String(min).padStart(2, "0") + ":" + String(secs).padStart(2, "0") + " " + am_pm
-
-    return hrminsecs
+    return formatTime(hour, min, secs, am_pm)
 }
 
 function set24hrs(time) {
@@ -42,9 +44,7 @@ function set24hrs(time) {
         am_pm = "AM";
     }
 
-    let hrminsecs = String(hour).padStart(2, "0") + ":" + String(min).padStart(2, "0") + ":" + String(secs).padStart(2, "0") + " " + am_pm
-
-    return hrminsecs
+    return formatTime(hour, min, secs, am_pm)
 }
 
 function flag_12() {
