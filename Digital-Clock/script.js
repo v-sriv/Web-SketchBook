@@ -47,4 +47,5 @@ function showTime() {
     currentTime.innerText = set12hrs(time)
 }
 
+setInterval(showTime, 1000);
 showTime()
