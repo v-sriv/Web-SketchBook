@@ -6,17 +6,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #A5F3FC, #3B82F6);
+    /* background: linear-gradient(135deg, #A5F3FC, #3B82F6); */
+    background: linear-gradient(135deg, #222, black);
+    color: whitesmoke;
     font-family: 'Michroma', 'serif';
-}
-
-h1 {
-    color: navy;
 }
 
 #clock {
     font-size: 4rem;
-    color: navy;
 }
 
 #buttons {
@@ -27,14 +24,14 @@ button {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    color: aliceblue;
-    background-color: navy;
+    color: #ccc;
+    background-color: #333;
     font: inherit;
 }
 
 button:hover {
     padding: 20px;
     margin: 10px;
-    color: aliceblue;
-    background-color: blue;
+    color: #ccc;
+    background-color: #222;
 }
