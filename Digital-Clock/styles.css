@@ -1,40 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
 body {
     height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(135deg, #A5F3FC, #3B82F6);
+    font-family: 'Michroma', 'serif';
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     color: navy;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #clock {
-    display: flex;
-    justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4rem;
     color: navy;
 }
 
 #buttons {
-    display: flex;
-    justify-content: center;
     padding: 5dvh;
 }
 
 button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
     color: aliceblue;
     background-color: navy;
+    font: inherit;
 }
 
 button:hover {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     color: aliceblue;
     background-color: blue;
